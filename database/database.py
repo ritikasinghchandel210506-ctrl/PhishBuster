@@ -9,14 +9,12 @@ from contextlib import contextmanager
 DB_PATH = os.path.join(os.path.dirname(__file__), "phishing_detector.db")
 SCHEMA_PATH = os.path.join(os.path.dirname(__file__), "schema.sql")
 
-
 def init_db(db_path: str = DB_PATH) -> None:
     os.makedirs(os.path.dirname(db_path), exist_ok=True)
     with sqlite3.connect(db_path) as conn:
         with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
             conn.executescript(f.read())
         conn.commit()
-
 
 @contextmanager
 def get_connection(db_path: str = DB_PATH):
