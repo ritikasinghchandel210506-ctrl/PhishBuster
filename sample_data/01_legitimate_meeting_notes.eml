@@ -1,0 +1,31 @@
+From: Sarah Lee <sarah.lee@company.com>
+To: team@company.com
+Subject: Notes from today's planning meeting
+Date: Sat, 19 Sep 2026 10:00:00 +0000
+Message-ID: <01_legitimate_meeting_notes.eml@example-mail-system>
+Authentication-Results: spf=pass smtp.mailfrom=company.com; dkim=pass
+ header.d=company.com; dmarc=pass
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============0062673133621881358=="
+
+--===============0062673133621881358==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi team,
+
+Attaching the notes and action items from today's planning meeting. Please re=
+view before Friday's standup.
+
+Thanks,
+Sarah
+
+--===============0062673133621881358==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="meeting_notes.txt"
+MIME-Version: 1.0
+
+QWN0aW9uIGl0ZW1zOgoxLiBGaW5pc2ggZHJhZnQKMi4gU2hhcmUgd2l0aCBkZXNpZ24gdGVhbQ==
+
+--===============0062673133621881358==--

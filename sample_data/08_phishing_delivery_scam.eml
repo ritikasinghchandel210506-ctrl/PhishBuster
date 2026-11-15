@@ -1,0 +1,26 @@
+From: DHL Express <no-reply@dhl-parcel-delivery-status.click>
+To: user@example.com
+Subject: Your package could not be delivered
+Date: Sat, 19 Sep 2026 10:00:00 +0000
+Message-ID: <08_phishing_delivery_scam.eml@example-mail-system>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5554441554626966798=="
+
+--===============5554441554626966798==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+DHL: Your shipment is on hold at the local facility. Your parcel is waiting -=
+ your package could not be delivered due to an incomplete address. Reschedule=
+ your delivery and pay a small customs fee to release your parcel: http://dhl=
+-parcel-delivery-status.click/track?id=3D88213
+
+--===============5554441554626966798==
+Content-Type: application/vnd.ms-word.document.macroEnabled.12
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="shipping_label.docm"
+MIME-Version: 1.0
+
+ZmFrZSBwbGFjZWhvbGRlciBjb250ZW50LCBub3QgYSByZWFsIG1hY3JvIGZpbGU=
+
+--===============5554441554626966798==--
